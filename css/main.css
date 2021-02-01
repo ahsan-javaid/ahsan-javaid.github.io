@@ -1,6 +1,16 @@
 /* Buttons */
 /* Inputs */
 /* Timeline custom component */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.project-info {
+  font-size: 12px !important;
+  text-align: justify !important;
+}
+.card-projects {
+  min-height: 435px !important;
+}
 .timeline {
   border-left: 2px solid #E6E9ED;
   padding: 1rem 0; }
@@ -87,6 +97,9 @@ html {
 .object-fit {
   object-fit: cover;
 
+}
+.my-1 {
+  height: 5px !important;
 }
 .avatar {
   max-width: 216px;
