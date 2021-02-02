@@ -4,12 +4,17 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+.card-img-top {
+  max-height: 200px;
+  object-fit: contain;
+}
 .project-info {
   font-size: 12px !important;
   text-align: justify !important;
 }
 .card-projects {
   min-height: 435px !important;
+  margin-top: 10px;
 }
 .timeline {
   border-left: 2px solid #E6E9ED;
